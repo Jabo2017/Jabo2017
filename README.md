@@ -26,9 +26,17 @@ npm i vue-aliplay-player
 
 #### 工程化与工具
 
+**[vue2-migration-scanner](https://github.com/Jabo2017/vue2-migration-scanner)** &nbsp;·&nbsp; [npm](https://www.npmjs.com/package/vue2-migration-scanner) &nbsp;·&nbsp; [示例报告](https://jabo2017.github.io/vue2-migration-scanner/)
+
+Vue 2 迁移债务扫描器：检出 10 类遗留写法（生命周期 / `.sync` / `slot-scope` / `filters` / 全局 API / mixins …）与依赖风险，输出「文件:行号」清单，并用 MDI 指数把迁移成本量化成数字。零依赖，`npx` 直接跑。
+
+```bash
+npx vue2-migration-scanner
+```
+
 **[vue3-rspack-starter](https://github.com/Jabo2017/vue3-rspack-starter)** &nbsp;·&nbsp; [在线演示](https://jabo2017.github.io/vue3-rspack-starter/)
 
-Vue 3 + TypeScript + Rspack 起步模板，内置 **Vue 2 迁移债务扫描器**：识别 10 类遗留写法，输出「文件:行号」清单与 MDI 指数，让迁移成本可量化，而不是靠估。
+Vue 3 + TypeScript + Rspack 起步模板，内置 Pinia、vitest 与 Pages 部署配置。
 
 #### AI 应用
 
@@ -55,6 +63,6 @@ Markdown 简历编辑器 + 打字机式自动书写预览。
 
 #### 正在关注
 
-- **Vue 2 → Vue 3 的大规模迁移**：怎么把「感觉要很久」变成「有数字的方案」
+- **Vue 2 → Vue 3 的大规模迁移**：怎么把「感觉要很久」变成「有数字的方案」 —— [vue2-migration-scanner](https://github.com/Jabo2017/vue2-migration-scanner)
 - **视频播放**：HLS / FLV / 点播 / 直播 的多内核统一抽象
 - **AI 落地**：在真实业务里用上模型能力，而不是做个 demo
